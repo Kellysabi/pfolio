@@ -36,14 +36,12 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
-                />
+                  className=" cursor-pointer text-2xl"/>
               </li>
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
-                >
+                  href="#">
                   Resume
                 </a>
               </li>
